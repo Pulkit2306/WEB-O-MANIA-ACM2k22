@@ -1,253 +1,265 @@
 .historyBox {
-  text-align: justify;
+    text-align: justify;
 }
+
 .todayTogertherdiv {
-  margin: 150px auto;
-  width: 50vw;
-  padding: 8px;
+    margin: 150px auto;
+    width: 50vw;
+    padding: 8px;
 }
 
 #TodayTomorrow {
-  float: left;
-  width: 300px;
-  height: 260px;
-  padding: 0 10px 0 0;
+    float: left;
+    width: 300px;
+    height: 260px;
+    padding: 0 10px 0 0;
 }
 
 .logoMo {
-  width: 19vw;
+    width: 19vw;
 }
 
 #AboutUs {
-  text-align: center;
+    text-align: center;
 }
 
 .box199 {
-  top: 50%;
-  left: 50%;
-  padding: 10px;
-  display: flex;
-  width: 90%;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    display: flex;
+    width: 90%;
 }
 
 .box199 .image-box {
-  width: 150px;
+    width: 150px;
 }
 
 .box199 .image-box img {
-  width: 200px;
-  flex: 0 0 150px;
-  padding-right: 20px;
+    width: 200px;
+    flex: 0 0 150px;
+    padding-right: 20px;
 }
 
 .box199 .contentAbout {
-  padding-left: 50px;
+    padding-left: 50px;
 }
 
 .box199 .contentAbout h2 {
-  margin: 0;
-  padding-left: 0;
+    margin: 0;
+    padding-left: 0;
 }
 
 .box199 .contentAbout p {
-  margin: 0;
-  font-size: 18px;
-  padding: 10px 0 0;
+    margin: 0;
+    font-size: 18px;
+    padding: 10px 0 0;
 }
 
 #Home {
-  margin-left: 45vw;
+    margin-left: 45vw;
 }
 
 .Hidden {
-  display: none;
+    display: none;
 }
 
 .btn {
-  padding: 0.7rem 3rem;
-  font-size: 2rem;
-  color: #fff;
-  border-radius: 5rem;
-  margin-top: 1rem;
-  cursor: pointer;
-  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+    padding: 0.7rem 3rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
+
 
 /* media queries */
 
 @media (max-width: 768px) {
-  html {
-    font-size: 55%;
-  }
-  #menu {
-    display: block;
-  }
+    html {
+        font-size: 55%;
+    }
+    #menu {
+        display: block;
+    }
 }
 
 #login {
-  font-size: 3rem;
-  color: #f39c12;
-  cursor: pointer;
-  margin-left: -1em;
+    font-size: 3rem;
+    color: #f39c12;
+    cursor: pointer;
+    margin-left: -1em;
 }
 
 #login:hover {
-  color: #444;
+    color: #444;
 }
 
 .loginForm {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 10%;
-  left: 0;
-  z-index: 1000;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .loginForm.popup {
-  top: 0;
+    top: 0;
 }
 
 .loginForm form {
-  width: 35rem;
-  background: rgb(255, 255, 255);
-  margin: 0rem 2rem;
-  padding: 1rem 3rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.1rem 0.3rem #333;
-  position: relative;
+    width: 35rem;
+    background: rgb(255, 255, 255);
+    margin: 0rem 2rem;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.3rem #333;
+    position: relative;
 }
 
 .loginForm form h3 {
-  font-size: 3rem;
-  color: #f39c12;
-  padding: 1rem0;
+    font-size: 3rem;
+    color: #f39c12;
+    padding: 1rem0;
 }
 
 .loginForm form .box {
-  width: 100%;
-  padding: 1rem 0;
-  margin: 1rem 0;
-  /* border-bottom: .2rem solid #666; */
-  font-size: 1.6rem;
-  color: #333;
-  text-transform: none;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    /* border-bottom: .2rem solid #666; */
+    font-size: 1.6rem;
+    color: #333;
+    text-transform: none;
 }
 
 .loginForm form .box::placeholder {
-  text-transform: capitalize;
+    text-transform: capitalize;
 }
 
 .loginForm form .box:focus {
-  border-color: #f39c12;
+    border-color: #f39c12;
 }
 
 .loginForm form .box:nth-child(3) {
-  margin-bottom: 5rem;
+    margin-bottom: 5rem;
 }
 
 .loginForm form p {
-  font-size: 1.4rem;
-  color: #666;
-  padding: 0.5rem 0;
+    font-size: 1.4rem;
+    color: #666;
+    padding: 0.5rem 0;
 }
 
 .loginForm form p a {
-  color: #f39c12;
+    color: #f39c12;
 }
 
 .loginForm form .btn {
-  width: 100%;
-  margin: 2rem 0;
+    width: 100%;
+    margin: 2rem 0;
 }
 
 .loginForm form .btn:hover {
-  background: #f39c12;
+    background: #f39c12;
 }
 
 .loginForm form .fa-times {
-  position: absolute;
-  top: 1.5rem;
-  right: 2rem;
-  font-size: 2.5rem;
-  cursor: pointer;
-  color: #999;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #999;
 }
 
 .loginForm form .fa-times:hover {
-  color: #f39c12;
+    color: #f39c12;
 }
 
 @media (max-width: 500px) {
-  html {
-    font-size: 50%;
-  }
+    html {
+        font-size: 50%;
+    }
 }
 
 .about h3 {
-  display: inline-block;
-  text-align: initial;
+    display: inline-block;
+    text-align: initial;
 }
 
 .about img {
-  display: inline-block;
-  width: 15vw;
-  height: 40vh;
+    display: inline-block;
+    width: 15vw;
+    height: 40vh;
 }
 
 .about p {
-  display: inline-block;
-  font-size: 18px;
-  padding: 10px;
-  border: 2px solid black;
-  width: 70%;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 70%;
 }
 
 .footer {
-  background: #333;
+    background: #333;
 }
 
 .footer .box-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .footer .box-container .box {
-  margin: 1.5em;
-  text-align: center;
-  flex: 1 1 1.5em;
+    margin: 1.5em;
+    text-align: center;
+    flex: 1 1 1.5em;
 }
 
 .footer .box-container .box h3 {
-  font-size: 1em;
-  color: #fff;
-  padding: 1em 0;
+    font-size: 1em;
+    color: #fff;
+    padding: 1em 0;
 }
 
 .footer .box-container .box p {
-  font-size: 0.75em;
-  color: #eee;
-  padding: 0.7rem 0;
+    font-size: 0.75em;
+    color: #eee;
+    padding: 0.7rem 0;
 }
 
 .footer .box-container .box p i {
-  padding-right: 0.5rem;
-  color: #f39c12;
+    padding-right: 0.5rem;
+    color: #f39c12;
 }
 
 .footer .box-container .box a {
-  font-size: 0.8em;
-  display: block;
-  padding: 0.5em 0;
-  color: #fff;
+    font-size: 0.8em;
+    display: block;
+    padding: 0.5em 0;
+    color: #fff;
 }
 
 .footer .box-container .box a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
+}
+
+.footer .box-container .box a .fa-facebook-square {
+    color: #fff;
+    font-size: 2em;
+}
+
+.footer .box-container .box a .fa-twitter-square {
+    color: #fff;
+    font-size: 2em;
 }

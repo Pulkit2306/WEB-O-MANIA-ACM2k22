@@ -105,3 +105,13 @@ header .nav ul li a:hover {
 .footer .box-container .box a:hover {
     text-decoration: underline;
 }
+
+.footer .box-container .box a .fa-facebook-square {
+    color: #fff;
+    font-size: 2em;
+}
+
+.footer .box-container .box a .fa-twitter-square {
+    color: #fff;
+    font-size: 2em;
+}

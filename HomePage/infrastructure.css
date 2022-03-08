@@ -1,110 +1,121 @@
 .heading {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-  outline: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  transition: all 0.2s linear;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
 }
 
 *::selection {
-  background: #f39c12;
-  color: #fff;
+    background: #f39c12;
+    color: #fff;
 }
 
 header {
-  width: 100%;
-  background-color: #f39c12;
-  height: 10vw;
-  text-align: center;
-  justify-content: center;
+    width: 100%;
+    background-color: #f39c12;
+    height: 10vw;
+    text-align: center;
+    justify-content: center;
 }
 
 header h4 {
-  padding-top: 1.5em;
-  color: #fff;
-  font-size: 2rem;
+    padding-top: 1.5em;
+    color: #fff;
+    font-size: 2rem;
 }
 
 header h4:hover {
-  color: black;
+    color: black;
 }
 
 header .nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  list-style: none;
-  z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    z-index: 1000;
 }
 
 header .nav ul li {
-  margin: 0 1rem;
+    margin: 0 1rem;
 }
 
 header .nav ul li a {
-  font-size: 1em;
-  color: #fff;
+    font-size: 1em;
+    color: #fff;
 }
 
 header .nav ul li a.active,
 header .nav ul li a:hover {
-  color: #444;
+    color: #444;
 }
 
 .logoMo {
-  width: 19vw;
+    width: 19vw;
 }
 
 #AboutUs {
-  text-align: center;
+    text-align: center;
 }
 
 .footer {
-  background: #333;
+    background: #333;
 }
 
 .footer .box-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer .box-container .box {
-  margin: 1.5em;
-  text-align: center;
-  flex: 1 1 1.5em;
+    margin: 1.5em;
+    text-align: center;
+    flex: 1 1 1.5em;
 }
 
 .footer .box-container .box h3 {
-  font-size: 1em;
-  color: #fff;
-  padding: 1em 0;
+    font-size: 1em;
+    color: #fff;
+    padding: 1em 0;
 }
 
 .footer .box-container .box p {
-  font-size: 0.75em;
-  color: #eee;
-  padding: 0.7rem 0;
+    font-size: 0.75em;
+    color: #eee;
+    padding: 0.7rem 0;
 }
 
 .footer .box-container .box p i {
-  padding-right: 0.5rem;
-  color: #f39c12;
+    padding-right: 0.5rem;
+    color: #f39c12;
 }
 
 .footer .box-container .box a {
-  font-size: 0.8em;
-  display: block;
-  padding: 0.5em 0;
-  color: #fff;
+    font-size: 0.8em;
+    display: block;
+    padding: 0.5em 0;
+    color: #fff;
 }
 
 .footer .box-container .box a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
+}
+
+.footer .box-container .box a .fa-facebook-square {
+    color: #fff;
+    font-size: 2em;
+}
+
+.footer .box-container .box a .fa-twitter-square {
+    color: #fff;
+    font-size: 2em;
 }
