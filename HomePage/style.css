@@ -1,3 +1,13 @@
+.todayTogertherdiv {
+  margin: 100px auto;
+  width: 80vw;
+  padding: 8px;
+}
+#TodayTomorrow {
+  float: left;
+  width: 300px;
+  height: 260px;
+}
 .logoMo {
   width: 19vw;
 }
@@ -28,7 +38,7 @@
 }
 .box199 .contentAbout p {
   margin: 0;
-  font-size: 19px;
+  font-size: 18px;
   padding: 10px 0 0;
 }
 #Home {
@@ -37,7 +47,6 @@
 .Hidden {
   display: none;
 }
-
 .btn {
   padding: 0.7rem 3rem;
   font-size: 2rem;
